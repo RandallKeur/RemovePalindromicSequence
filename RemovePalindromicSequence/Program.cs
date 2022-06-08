@@ -8,8 +8,8 @@ public static class Program
 {
     public static void Main(string[] args)
     {
-        var palFinder = new PalindromeSequenceFinder();
-        var initialString = "baabb";
+        var palFinder = new Palindrome();
+        var initialString = "aaabbaaa";
         var steps = palFinder.RemovePalindromeSequence(initialString, 0);
         Console.WriteLine($"Steps to remove palindromes from {initialString} :  {steps}");
     }
